@@ -6,7 +6,9 @@
  * @returns {number} temperature in °C
  */
 function convertToCelsius(f) {
-  // TODO
+  let newTemp = (f - 32) * (5/9);
+
+  return newTemp;
 }
 
 /**
